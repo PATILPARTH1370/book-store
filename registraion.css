@@ -1,0 +1,58 @@
+.topic-1{
+    padding-left: 55%;
+}
+.topic-2{
+    padding-left: 50%;
+}
+body{background-color: aqua;}
+input[type=text],select,textarea
+{
+    width: 50%;
+    height: 20%;
+    padding: 12px;
+    padding-left: 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=email],select,textarea
+{
+    width: 50%;
+    height: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=password],select,textarea
+{
+    width: 50%;
+    height: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=submit]{
+    background-color: rgb(121, 139, 169);
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+input[type=reset]{
+    background-color: rgb(103, 45, 70);
+    border-radius: 400px;
+    font-size: 20px;
+}
+.container1{
+    padding-top:10PX;
+    border-radius: 17px;
+}
+
+
+
+
+

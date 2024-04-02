@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" href="registraion.css">
+</head>
+<body>
+    <div class="topic-1">
+        <h1></h1></div>
+        <div class="topic-2">
+<h2>REGISTRATION FORM</h2>
+</div>
+<div class="container">
+<form action="submit_form.php" method="post" enctype="multipart/form-data">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="male" checked>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br><br>
+<label for="date">Date of Birth</label>
+<input type="date" required>
+<div class="container2"></div>
+<label for="add">Qualification : </label>
+<input type="text" required>
+<div class="container1"></div>
+<label for="country">Country:</label>
+<select id="country" name="country">
+<option value="india">INDIA</option>
+<option value="BHARAT">USA</option>
+<option value="india">UK</option>
+<option value="BHARAT">RUSSIA</option>
+<!-- Add more options as needed -->
+</select><br><br>
+<label>Languages:</label>
+<input type="checkbox" id="Marathi" name="language[]" value="Marathi">
+<label for="Marathi">ENGLISH</label>
+<input type="checkbox" id="Hindi" name="language[]" value="Hindi">
+<label for="Hindi">HINDI</label>
+<br><br>
+<label for="address">residential address</label>
+<label for="profilePic">Profile Picture:</label>
+<input type="file" id="profilePic" name="profilePic" accept="image/*"><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</div>
+</body>
+</html
